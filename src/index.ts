@@ -1,5 +1,4 @@
-// question one 
-
+// QUESTION 1
 export function sortDescending(arr: number[]): number[]{
   for(let i = 0; i < arr.length - 1; i++){
     for (let j = i +1; j < arr.length; j++){
@@ -19,6 +18,7 @@ const output: number[] = sortDescending(input)
 console.log(sortDescending(output))
 
 
+// QUESTION 2
 export function maxSubarraySum(arr: number[], subLen: number): number {
   if (subLen > arr.length) return 0;
 
@@ -42,6 +42,9 @@ console.log(maxSubarraySum([100, 200, 300, 400], 2));
 console.log(maxSubarraySum([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)); 
 console.log(maxSubarraySum([-3, 4, 0, -2, 6, -1], 2));          
 
+
+
+// QUESTION 3
 export function sumEvenNumbers(obj: any): number {
   let sum = 0;
 

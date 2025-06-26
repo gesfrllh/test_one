@@ -15,7 +15,7 @@ export function sortDescending(arr: number[]): number[]{
 const input: number[] = [1, 2, 4, 3, 5, 3, 2, 1]
 const output: number[] = sortDescending(input)
 
-console.log(sortDescending(output))
+console.log(output)
 
 
 // QUESTION 2
